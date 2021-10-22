@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
      region  = var.region
-     profile = "kbz-network-sso"
+     profile = "uat"   #<-- change your aws profile name
 }
 
 
