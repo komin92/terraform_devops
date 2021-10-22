@@ -1,0 +1,7 @@
+vpc_cidr                = "10.218.0.0/16"
+region                  = "ap-southeast-1"
+env_prefix              = "devops"
+instance_type           = "t2.micro"
+public_key_location     = ".ssh/id_rsa.pub"
+private_key_location    = ".ssh/id_rsa"
+image_name              = "amzn2-ami-hvm-*-x86_64-gp2"
